@@ -5,14 +5,14 @@ class App extends React.Component {
         return(
             <div className = "container-fluid">
                 <p>Header here...</p>
-                {this.props.childern}
+                {this.props.children}
             </div>
         );
     }
 }
 
-App.prototypes = {
-    childern : PropTypes.object.isRequired
+App.protoTypes = {
+    children : PropTypes.object.isRequired
 };
 
 export default App;
